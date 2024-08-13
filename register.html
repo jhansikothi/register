@@ -1,0 +1,75 @@
+<html>
+    
+    <head>Register course</head>
+    <body>
+        <form action="./form.txt">
+        
+        <fieldset>
+            <legend>Register for 10k course</legend>
+            <center>
+        
+    
+        <pre>
+            <lable for="Image">Upload Image:--</lable>
+            <input type="image" src="C:\Users\HP\OneDrive\DOCUMENTS\21r\21r day4\jpass.jpg"width="150" height="150">
+            <label for="Name">Name:--</label>
+            <input type="text" id="Name"placeholder="fullName" required>
+
+            <label>Email:--</label>
+            <input type="email" placeholder="email" required>
+
+            <label for="Education">Education:--</label>
+            <select name="Education" style="width: 170px;height:1.7em;">id="Education">
+            <option value="">Choose from below</option>
+            <option value="B.tech">B.tech</option>
+            <option value="B.Sc">B.Sc</option>
+            <option value="B.Com">B.Com</option>
+            <option value="MCA">MCA</option>
+            <option value="MBA">MBA</option>
+            </select>
+
+            <label for="Year">Year of passed out:--</label>
+            <select name="Year of passed out" id="Year"style="width: 170px;height:1.7em;" required>
+            <option value="">Choose from below</option>
+            <option value="2024">2024</option>
+            <option value="2023">2023</option>
+            <option value="2022">2022</option>
+            <option value="2021">2021</option>
+            <option value="2020">2020</option>
+            </select>
+
+            <label>Location:--</label>
+            <input type="text" list="Location"/>
+            <datalist id="Location">
+             <option value="Hyd">Hyd</option>
+            <option value= "Bangolore">Bangolore</option>
+             <option value="Chennai">Chennai</option>
+             <option value="Remote">Remote</option>
+            </datalist>
+            
+            <label for="choose your course">choose your course:--</label>
+            <select name="choose your course" style="width: 170px;height:1.7em;">id="choose your course">
+            <option value="">Choose from below</option>
+            <option value="Frontend">Frontend</option>
+            <option value="JavaFullStack">JavaFullStack</option>
+            <option value="AWS">AWS</option>
+            <option value="PythonFullStack">PythonFullStack</option>
+            </select>
+
+            <label for="phonenum">phNum:--</label>
+            <input type="number" id="phonenum" required>
+
+            Male:-<input type="radio"/>
+            Female:-<input type="radio"/>
+
+            <label for="check">Do you wanna become as a developer?</label>
+            <input type="checkbox" id="check">
+            <button type="submit">submit</button>
+                </pre>
+            </center>
+    
+</fieldset> 
+</form>
+    </body>
+    
+</html>
